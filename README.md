@@ -6,6 +6,11 @@
 deno run hello.ts
 ```
 
+- cli.js
+```shell
+deno run --allow-read cli.js 
+```
+
 ## コンパイル
 
 - ホストPCでコンパイル
@@ -17,5 +22,8 @@ deno run hello.ts
     deno compile --output target/ --target x86_64-pc-windows-msvc hello.ts
     ```
 
-## 公式
+## deno公式
 - [compiler](https://docs.deno.com/runtime/manual/tools/compiler)
+
+## ライブラリ
+- [commander](https://deno.land/x/cmd@v1.2.0)
